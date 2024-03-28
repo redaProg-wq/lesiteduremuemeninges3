@@ -1,0 +1,197 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* reset */
+
+:root{
+    font-family: "Roboto", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+
+
+/* general */
+
+.div-container {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+body{
+    overflow-x: hidden;
+}
+
+.dancing {
+    font-family: "Dancing Script", cursive;
+}
+
+
+
+
+/* valueP */
+
+.valueP{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url(../img/49533968_2051768461556627_3769919836260401152_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.valuePContainer{
+    max-width: 75vw;
+   
+}
+
+.valuePContainer h1{
+    transform: rotate(-10deg);
+    font-size: 5rem;
+}
+
+
+.valuePContainer p {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+/* progra */
+
+.progra{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.prograContainer{
+    max-width: 75vw;
+
+    
+}
+
+.prograContainer h2{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.prograContainer p{
+    margin-top: 4rem;
+}
+
+/*Super*/
+.super{
+    margin-top: 4rem;
+    min-height: 50vh;
+    background-image: url(../img/56344433_2176897425710396_1599965237195309056_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+/*evenements*/
+
+.evenements{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.evenementsContainer{
+    width: 75vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.evenementsContainer h2{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.evenement-grid{
+    width: 75vw;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 2;
+    align-items: center;
+}
+
+.image-grid{
+    width: 20vw;
+    grid-column-start: 1;
+}
+
+
+.text-grid{
+    width: 50vw;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+/*Separator*/
+
+.separator{
+    margin-top: 2rem;
+    height: 4px;
+    width: 50vw;
+    background-color: black;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .evenement-grid{
+        width: 75vw;
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: 5;
+        grid-template-rows: 2;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-grid{
+        width: 50vw;
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    .text-grid{
+        margin-top: 2rem;
+        width: 50vw;
+        grid-column-start: 3;
+        grid-row-start: 2;
+       
+    }
+   
+}
+
